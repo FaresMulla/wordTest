@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>יצור מסמכי טקסט</span>
+</mat-toolbar>
+
+<button mat-raised-button color="primary" (click)="shadi.click()">
+  ارفع شهادة واستصدرها
+</button>
+<input hidden #shadi type="file" (change)="onFileSelected($event)" />
