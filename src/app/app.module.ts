@@ -36,9 +36,11 @@ import {
   _MatSlideToggleRequiredValidatorModule,
 } from '@angular/material/slide-toggle';
 import { MatSortModule } from '@angular/material/sort';
+import { TestFixComponent } from './cmps/test-fix/test-fix.component';
+import { DocxToHtmlComponent } from './cmps/docx-to-html/docx-to-html.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, TestFixComponent, DocxToHtmlComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
